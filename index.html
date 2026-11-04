@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercício 06</title>
+</head>
+<body>
+
+  <script>
+    let tarefas = [];
+    for (let i = 1; i <= 3; i++) {
+      let tarefa = prompt("Digite a tarefa " + i + " de 3:");
+      tarefas.push(tarefa);
+    }
+
+    document.write("<h2>Tarefas da semana</h2>");
+    
+    for (let i = 0; i < tarefas.length; i++) {
+      document.write("- " + tarefas[i] + "<br>");
+    }
+  </script>
+
+</body>
+</html>
